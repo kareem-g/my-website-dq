@@ -1,0 +1,761 @@
+{
+  "theme.generic.and": {
+    "message": "and",
+    "description": "The conjunction used to join two words or phrases"
+  },
+  "theme.ErrorPageContent.title": {
+    "message": "This page crashed.",
+    "description": "The title of the fallback page when the page crashed"
+  },
+  "theme.BackToTopButton.buttonAriaLabel": {
+    "message": "Scroll back to top",
+    "description": "The ARIA label for the back to top button"
+  },
+  "theme.blog.paginator.navAriaLabel": {
+    "message": "Blog list page navigation",
+    "description": "The ARIA label for the blog pagination"
+  },
+  "theme.blog.paginator.newerEntries": {
+    "message": "Newer Entries",
+    "description": "The label used to navigate to the newer blog posts page (previous page)"
+  },
+  "theme.blog.paginator.olderEntries": {
+    "message": "Older Entries",
+    "description": "The label used to navigate to the older blog posts page (next page)"
+  },
+  "theme.blog.archive.title": {
+    "message": "Archive",
+    "description": "The page & hero title of the blog archive page"
+  },
+  "theme.blog.archive.description": {
+    "message": "Archive",
+    "description": "The page & hero description of the blog archive page"
+  },
+  "theme.blog.post.plurals": {
+    "message": "One post|{count} posts",
+    "description": "Pluralized label for \"{count} posts\". Use as much plural forms (separated by \"|\") as your language support (see https://www.unicode.org/cldr/cldr-aux/charts/34/supplemental/language_plural_rules.html)"
+  },
+  "theme.blog.tagTitle": {
+    "message": "{nPosts} tagged with \"{tagName}\"",
+    "description": "The title of the page for a blog tag"
+  },
+  "theme.tags.tagsPageLink": {
+    "message": "View All Tags",
+    "description": "The label of the link targeting the tag list page"
+  },
+  "theme.blog.post.paginator.navAriaLabel": {
+    "message": "Blog post page navigation",
+    "description": "The ARIA label for the blog posts pagination"
+  },
+  "theme.blog.post.paginator.newerPost": {
+    "message": "Newer Post",
+    "description": "The blog post button label to navigate to the newer/previous post"
+  },
+  "theme.blog.post.paginator.olderPost": {
+    "message": "Older Post",
+    "description": "The blog post button label to navigate to the older/next post"
+  },
+  "theme.docs.DocCard.categoryDescription": {
+    "message": "{count} items",
+    "description": "The default description for a category card in the generated index about how many items this category includes"
+  },
+  "theme.colorToggle.ariaLabel": {
+    "message": "Switch between dark and light mode (currently {mode})",
+    "description": "The ARIA label for the navbar color mode toggle"
+  },
+  "theme.colorToggle.ariaLabel.mode.dark": {
+    "message": "dark mode",
+    "description": "The name for the dark color mode"
+  },
+  "theme.colorToggle.ariaLabel.mode.light": {
+    "message": "light mode",
+    "description": "The name for the light color mode"
+  },
+  "theme.docs.breadcrumbs.navAriaLabel": {
+    "message": "Breadcrumbs",
+    "description": "The ARIA label for the breadcrumbs"
+  },
+  "theme.docs.tagDocListPageTitle.nDocsTagged": {
+    "message": "One doc tagged|{count} docs tagged",
+    "description": "Pluralized label for \"{count} docs tagged\". Use as much plural forms (separated by \"|\") as your language support (see https://www.unicode.org/cldr/cldr-aux/charts/34/supplemental/language_plural_rules.html)"
+  },
+  "theme.docs.tagDocListPageTitle": {
+    "message": "{nDocsTagged} with \"{tagName}\"",
+    "description": "The title of the page for a docs tag"
+  },
+  "theme.docs.paginator.navAriaLabel": {
+    "message": "Docs pages",
+    "description": "The ARIA label for the docs pagination"
+  },
+  "theme.docs.paginator.previous": {
+    "message": "Previous",
+    "description": "The label used to navigate to the previous doc"
+  },
+  "theme.docs.paginator.next": {
+    "message": "Next",
+    "description": "The label used to navigate to the next doc"
+  },
+  "theme.docs.versionBadge.label": {
+    "message": "Version: {versionLabel}"
+  },
+  "theme.docs.versions.unreleasedVersionLabel": {
+    "message": "This is unreleased documentation for {siteTitle} {versionLabel} version.",
+    "description": "The label used to tell the user that he's browsing an unreleased doc version"
+  },
+  "theme.docs.versions.unmaintainedVersionLabel": {
+    "message": "This is documentation for {siteTitle} {versionLabel}, which is no longer actively maintained.",
+    "description": "The label used to tell the user that he's browsing an unmaintained doc version"
+  },
+  "theme.docs.versions.latestVersionSuggestionLabel": {
+    "message": "For up-to-date documentation, see the {latestVersionLink} ({versionLabel}).",
+    "description": "The label used to tell the user to check the latest version"
+  },
+  "theme.docs.versions.latestVersionLinkLabel": {
+    "message": "latest version",
+    "description": "The label used for the latest version suggestion link label"
+  },
+  "theme.common.editThisPage": {
+    "message": "Edit this page",
+    "description": "The link label to edit the current page"
+  },
+  "theme.common.headingLinkTitle": {
+    "message": "Direct link to {heading}",
+    "description": "Title for link to heading"
+  },
+  "theme.lastUpdated.atDate": {
+    "message": " on {date}",
+    "description": "The words used to describe on which date a page has been last updated"
+  },
+  "theme.lastUpdated.byUser": {
+    "message": " by {user}",
+    "description": "The words used to describe by who the page has been last updated"
+  },
+  "theme.lastUpdated.lastUpdatedAtBy": {
+    "message": "Last updated{atDate}{byUser}",
+    "description": "The sentence used to display when a page has been last updated, and by who"
+  },
+  "theme.NotFound.title": {
+    "message": "Page Not Found",
+    "description": "The title of the 404 page"
+  },
+  "theme.navbar.mobileVersionsDropdown.label": {
+    "message": "Versions",
+    "description": "The label for the navbar versions dropdown on mobile view"
+  },
+  "theme.tags.tagsListLabel": {
+    "message": "Tags:",
+    "description": "The label alongside a tag list"
+  },
+  "theme.admonition.caution": {
+    "message": "caution",
+    "description": "The default label used for the Caution admonition (:::caution)"
+  },
+  "theme.admonition.danger": {
+    "message": "danger",
+    "description": "The default label used for the Danger admonition (:::danger)"
+  },
+  "theme.admonition.info": {
+    "message": "info",
+    "description": "The default label used for the Info admonition (:::info)"
+  },
+  "theme.admonition.note": {
+    "message": "note",
+    "description": "The default label used for the Note admonition (:::note)"
+  },
+  "theme.admonition.tip": {
+    "message": "tip",
+    "description": "The default label used for the Tip admonition (:::tip)"
+  },
+  "theme.admonition.warning": {
+    "message": "warning",
+    "description": "The default label used for the Warning admonition (:::warning)"
+  },
+  "theme.AnnouncementBar.closeButtonAriaLabel": {
+    "message": "Close",
+    "description": "The ARIA label for close button of announcement bar"
+  },
+  "theme.blog.sidebar.navAriaLabel": {
+    "message": "Blog recent posts navigation",
+    "description": "The ARIA label for recent posts in the blog sidebar"
+  },
+  "theme.CodeBlock.copied": {
+    "message": "Copied",
+    "description": "The copied button label on code blocks"
+  },
+  "theme.CodeBlock.copyButtonAriaLabel": {
+    "message": "Copy code to clipboard",
+    "description": "The ARIA label for copy code blocks button"
+  },
+  "theme.CodeBlock.copy": {
+    "message": "Copy",
+    "description": "The copy button label on code blocks"
+  },
+  "theme.CodeBlock.wordWrapToggle": {
+    "message": "Toggle word wrap",
+    "description": "The title attribute for toggle word wrapping button of code block lines"
+  },
+  "theme.DocSidebarItem.expandCategoryAriaLabel": {
+    "message": "Expand sidebar category '{label}'",
+    "description": "The ARIA label to expand the sidebar category"
+  },
+  "theme.DocSidebarItem.collapseCategoryAriaLabel": {
+    "message": "Collapse sidebar category '{label}'",
+    "description": "The ARIA label to collapse the sidebar category"
+  },
+  "theme.NavBar.navAriaLabel": {
+    "message": "Main",
+    "description": "The ARIA label for the main navigation"
+  },
+  "theme.NotFound.p1": {
+    "message": "We could not find what you were looking for.",
+    "description": "The first paragraph of the 404 page"
+  },
+  "theme.NotFound.p2": {
+    "message": "Please contact the owner of the site that linked you to the original URL and let them know their link is broken.",
+    "description": "The 2nd paragraph of the 404 page"
+  },
+  "theme.navbar.mobileLanguageDropdown.label": {
+    "message": "Languages",
+    "description": "The label for the mobile language switcher dropdown"
+  },
+  "theme.TOCCollapsible.toggleButtonLabel": {
+    "message": "On this page",
+    "description": "The label used by the button on the collapsible TOC component"
+  },
+  "theme.blog.post.readingTime.plurals": {
+    "message": "One min read|{readingTime} min read",
+    "description": "Pluralized label for \"{readingTime} min read\". Use as much plural forms (separated by \"|\") as your language support (see https://www.unicode.org/cldr/cldr-aux/charts/34/supplemental/language_plural_rules.html)"
+  },
+  "theme.blog.post.readMore": {
+    "message": "Read More",
+    "description": "The label used in blog post item excerpts to link to full blog posts"
+  },
+  "theme.blog.post.readMoreLabel": {
+    "message": "Read more about {title}",
+    "description": "The ARIA label for the link to full blog posts from excerpts"
+  },
+  "theme.docs.breadcrumbs.home": {
+    "message": "Home page",
+    "description": "The ARIA label for the home page in the breadcrumbs"
+  },
+  "theme.docs.sidebar.collapseButtonTitle": {
+    "message": "Collapse sidebar",
+    "description": "The title attribute for collapse button of doc sidebar"
+  },
+  "theme.docs.sidebar.collapseButtonAriaLabel": {
+    "message": "Collapse sidebar",
+    "description": "The title attribute for collapse button of doc sidebar"
+  },
+  "theme.docs.sidebar.navAriaLabel": {
+    "message": "Docs sidebar",
+    "description": "The ARIA label for the sidebar navigation"
+  },
+  "theme.docs.sidebar.closeSidebarButtonAriaLabel": {
+    "message": "Close navigation bar",
+    "description": "The ARIA label for close button of mobile sidebar"
+  },
+  "theme.navbar.mobileSidebarSecondaryMenu.backButtonLabel": {
+    "message": "← Back to main menu",
+    "description": "The label of the back button to return to main menu, inside the mobile navbar sidebar secondary menu (notably used to display the docs sidebar)"
+  },
+  "theme.docs.sidebar.toggleSidebarButtonAriaLabel": {
+    "message": "Toggle navigation bar",
+    "description": "The ARIA label for hamburger menu button of mobile navigation"
+  },
+  "theme.docs.sidebar.expandButtonTitle": {
+    "message": "Expand sidebar",
+    "description": "The ARIA label and title attribute for expand button of doc sidebar"
+  },
+  "theme.docs.sidebar.expandButtonAriaLabel": {
+    "message": "Expand sidebar",
+    "description": "The ARIA label and title attribute for expand button of doc sidebar"
+  },
+  "theme.ErrorPageContent.tryAgain": {
+    "message": "Try again",
+    "description": "The label of the button to try again rendering when the React error boundary captures an error"
+  },
+  "theme.common.skipToMainContent": {
+    "message": "Skip to main content",
+    "description": "The skip to content label used for accessibility, allowing to rapidly navigate to main content with keyboard tab/enter navigation"
+  },
+  "theme.tags.tagsPageTitle": {
+    "message": "Tags",
+    "description": "The title of the tag list page"
+  },
+  "theme.unlistedContent.title": {
+    "message": "Unlisted page",
+    "description": "The unlisted content banner title"
+  },
+  "theme.unlistedContent.message": {
+    "message": "This page is unlisted. Search engines will not index it, and only users having a direct link can access it.",
+    "description": "The unlisted content banner message"
+  },
+  "header.title": {
+    "message": "DigiQuip - familiarization and competence overview",
+    "description": "The title of the header"
+  },
+  "header.subtitle": {
+    "message": "Our solutions make familiarization possible for both own and hired equipment, and provide a collected overview of documented and certified competence.",
+    "description": "The subtitle of the header"
+  },
+  "general.readmore": {
+    "message": "Read more",
+    "description": "The label used to link to the full article"
+  },
+  "general.contactus.title": {
+    "message": "Want to know more? Contact us",
+    "description": "The label used to link to the contact page"
+  },
+  "home.banner.title1": {
+    "message": "Solutions for safe use of",
+    "description": "The title of the home page"
+  },
+  "home.banner.title2": {
+    "message": "work equipment",
+    "description": "The title of the home page part two"
+  },
+  "home.safety.title": {
+    "message": "Safety at work",
+    "description": "The title of the safety section on the home page"
+  },
+  "home.safety.what": {
+    "message": "DigiQuip is the hub that easily connects your machinery and equipment fleet with available documentation, inspection procedures, safety training, and specific machine and equipment training.",
+    "description": "The description of the safety section on the home page"
+  },
+  "home.safety.how": {
+    "message": "-So that the right people use the right machine in the right way.",
+    "description": "The how part of the description of the safety section on the home page"
+  },
+  "home.safeuse.title": {
+    "message": "Correct use of equipment depends on the necessary training and competence",
+    "description": "The title of the safe use of machinery section on the home page"
+  },
+  "home.safeuse.arg1": {
+    "message": "DigiQuip is a technology company that simplifies the management of competence, training, and documentation. We offer unique solutions for conducting equipment-specific training, also known as type training or machine-specific training. In addition, our solutions can be used to keep track of courses, competence certificates, project experience, and education.",
+    "description": "The first argument of the safe use of machinery section on the home page"
+  },
+  "home.safeuse.arg2": {
+    "message": "At the construction site? By scanning a QR code or another identifier, individuals receive instant confirmation of whether they have the appropriate and necessary documented training to use that specific machine, tool, or safety equipment. Reporting or completion of training can be done immediately. This ensures that the right people use the right equipment in the right way.",
+    "description": "The second argument of the safe use of machinery section on the home page"
+  },
+  "home.safeuse.arg3": {
+    "message": "By placing QR codes on machines or equipment, users gain immediate access to their own competency status for the specific work equipment.",
+    "description": "The third argument of the safe use of machinery section on the home page"
+  },
+  "home.consolidate.title": {
+    "message": "Full control over equipment and documentation",
+    "description": "The title of the consolidate your training section on the home page"
+  },
+  "home.consolidate.arg1": {
+    "message": "Inspections, documents, and user manuals for equipment should always be easily accessible when needed. Why? This makes it easier to ensure that equipment is well-maintained and only used when it is safe to do so.",
+    "description": "The first argument of the consolidate your training section on the home page"
+  },
+  "home.consolidate.arg2": {
+    "message": "At the construction site? When a worker or inspector scans the equipment's identifier, they can find the latest inspection status, documents, and user manual. Additionally, a pre-use inspection can be quickly carried out and documented, either with or without a digital checklist.",
+    "description": "The second argument of the consolidate your training section on the home page"
+  },
+  "home.consolidate.point1": {
+    "message": "Digital checklists for machines and equipment.",
+    "description": "The first point of the consolidate your training section on the home page"
+  },
+  "home.consolidate.point2": {
+    "message": "Perform equipment inspections at the right time.",
+    "description": "The second point of the consolidate your training section on the home page"
+  },
+  "home.consolidate.point3": {
+    "message": "Real-time dashboards.",
+    "description": "The third point of the consolidate your training section on the home page"
+  },
+  "home.share.title": {
+    "message": "Suppliers efficiently share information and content",
+    "description": "The title of the share knowledge and experience section on the home page"
+  },
+  "home.share.point1": {
+    "message": "User manuals and instructions.",
+    "description": "The first point of the share knowledge and experience section on the home page"
+  },
+  "home.share.point2": {
+    "message": "Product specifications.",
+    "description": "The second point of the share knowledge and experience section on the home page"
+  },
+  "home.share.point3": {
+    "message": "Videos, images, and training.",
+    "description": "The third point of the share knowledge and experience section on the home page"
+  },
+  "home.expert.title": {
+    "message": "Efficient execution and documentation of expert inspections",
+    "description": "The title of the expertise and experience section on the home page"
+  },
+  "home.expert.arg1": {
+    "message": "With our solution, inspectors can efficiently carry out their work from planning to follow-up, including thorough documentation.",
+    "description": "The first argument of the expertise and experience section on the home page"
+  },
+  "home.expert.arg2": {
+    "message": "Machine owners also gain complete visibility into the status, inspection deadlines, and necessary documentation.",
+    "description": "The second argument of the expertise and experience section on the home page"
+  },
+  "home.expert.point1": {
+    "message": "Streamline planning with a comprehensive machine overview.",
+    "description": "The first point of the expertise and experience section on the home page"
+  },
+  "home.expert.point2": {
+    "message": "Save time with flexible checklists.",
+    "description": "The second point of the expertise and experience section on the home page"
+  },
+  "home.expert.point3": {
+    "message": "Easily conduct and document annual inspections.",
+    "description": "The third point of the expertise and experience section on the home page"
+  },
+  "home.ourpartners.title": {
+    "message": "Some of our customers",
+    "description": "The title of the our partners section on the home page"
+  },
+  "home.contact.title":
+  {
+    "message": "Focused on the right use of equipment at the right time?",
+    "description": "The title of the contact section on the home page"
+  },
+  "home.contact.button":
+  {
+    "message": "Contact us",
+    "description": "The button label of the contact section on the home page"
+  },
+"competence.banner.title1": {
+    "message": "Kvipp is a super simple, and free, solution for",
+    "description": "The title of the competence page part one"
+},
+"competence.banner.title2": {
+    "message": "documenting equipment-specific training",
+    "description": "The title of the competence page part two"
+},
+"kvippbenefits.title1": {
+    "message": "Get control of",
+    "description": "The title of the first section on the Kvipp page"
+  },
+  "kvippbenefits.title2": {
+    "message": "equipment-specific training",
+    "description": "The second title of the first section on the Kvipp page"
+  },
+  "kvippbenefits.arg1": {
+    "message": "With Kvipp, ensuring everyone has equipment-specific training is easier than ever. Say goodbye to complicated logins and registrations!",
+    "description": "The first argument of the first Kvipp section"
+  },
+  "kvippbenefits.arg2": {
+    "message": "Kvipp can be used anytime, anywhere, with no preparation or commitment required."
+  },
+"kvippbenefits.arg3": {
+  "message": "All you need is a phone, internet access, and an HSE card (or driving licence)."
+},
+"kvipp-get-started.title1": {
+  "message": "How to get started?",
+  "description": "Kvipp section two, 1"
+},
+"kvipp-get-started.arg1": {
+  "message": "Kvipp is available whenever and wherever you need it, whether you're checking or completing training:",
+  "description": "Kvipp section two, arg 1"
+},
+"kvipp-get-started.point1": {
+"message": "Go to the kvipp.it website",
+"description": "Kvipp section two, point 1"
+},
+"kvipp-get-started.point2": {
+  "message": "Scan the equipment's identifier (QR code/NFC tag) or use artificial intelligence to recognise the equipment",
+  "description": "Kvipp section two, point 2"
+},
+"kvipp-get-started.point3": {
+  "message": "Identify the person using their HSE card or driving licence. Scan the QR code on the HSE card or take a picture of the driving licence and let artificial intelligence do the work",
+  "description": "Kvipp section two, point 3"
+},
+"kvipp-situation.title1": {
+    "message": "Training in connection with renting equipment",
+    "description": "Kvipp section 3, title"
+},
+"kvipp-situation.arg1": {
+    "message": "An example of a situation where Kvipp simplifies training is when e.g. a company rents some equipment. With Kvipp, the rental company can provide training and ensure that documentation is stored digitally and with the right content immediately.",
+    "description": "Kvipp section 3, arg 1"
+},
+"kvipp-situation.point1": {
+    "message": "Receive training",
+    "description": "Kvipp section 3, point 1"
+},
+"kvipp-situation.point2": {
+    "message": "Get documentation immediately",
+    "description": "Kvipp section 3, point 2"
+},
+"kvipp-situation.point3": {
+    "message": "Save the documentation digitally",
+    "description": "Kvipp section 3, point 3"
+},
+"bedrift.banner.title1": {
+  "message": "Kvipp Bedrift gives you full control over training with minimal effort",
+  "description": "Kvipp Business title"
+},
+"bedrift.benefits.title1": {
+  "message": "With Kvipp Bedrift",
+  "description": "kvipp business benefits"
+},
+"bedrift.benefits.title2": {
+  "message": "you gain an overview of training.",
+  "description": "part two kvipp business benefits"
+},
+"bedrift.benefits.arg1": {
+  "message": "For just NOK 1390 per month (excl. VAT), the company gains an overview of all equipment-specific training and documentation - always available and up to date.",
+  "description": "business benefits arg1"
+},
+"bedrift.benefits.point1": {
+  "message": "Your employees are automatically and securely added to the solution via the HSE card integration",
+  "description": "business benefits point 1"
+},
+"bedrift.benefits.point2": {
+  "message": "Equipment and documentation are automatically added to the overview after training is completed",
+  "description": "business benefits point 2"
+},
+"bedrift.benefits.point3": {
+  "message": "Overview and gap analyses in real time. Get a continuous overview of who has or lacks training",
+  "description": "business benefits point 3"
+},
+"bedrift.groups.title1": {
+  "message": "What is the status of",
+  "description": "kvipp business groups"
+},
+"bedrift.groups.title2": {
+  "message": "equipment-specific training in our company?",
+  "description": "part two kvipp groups benefits"
+},
+"bedrift.groups.arg1": {
+  "message": "An overview of completed training is available in Kvipp Bedrift. If you use the HSE card, the person and training are automatically linked to the correct organisation.",
+  "description": "business groups arg1"
+},
+"bedrift.groups.point1": {
+  "message": "Check what training each person has, and download the relevant documentation",
+  "description": "business groups 1"
+},
+"bedrift.groups.point2": {
+  "message": "Check who can use which work equipment",
+  "description": "business groups 2"
+},
+"bedrift.groups.point3": {
+  "message": "Create groups with individuals and equipment, and gain an overview of status and progression. In the screenshot, you can see that individuals have training on half of the equipment in the group, and you will be able to drill down to more details.",
+  "description": "business groups 3"
+},
+  "workequipment.banner.title1": {
+    "message": "Get an overview of whether the equipment is safe to use",
+    "description": "The first title of the work equipment page"
+  },
+  "workequipment.banner.title2": {
+    "message": "machines and equipment",
+    "description": "The second title of the work equipment page"
+  },
+  "workequipment.banner.title3": {
+    "message": "in one platform",
+    "description": "The third title of the work equipment page"
+  },
+  "workequipment.banner.title4": {
+    "message": "Streamline internal processes by consolidating all work equipment in one place.",
+    "description": "The fourth title of the work equipment page"
+  },
+  "workequipment.banner.arg1": {
+    "message": "When a business manages many machines and equipment, it is important that documents, manuals, and reports are organised and readily available when people need them.",
+    "description": "The first argument of the work equipment banner"
+  },
+  "workequipment.banner.arg2": {
+    "message": "Most machines and equipment requires inspections, and this must happen in a timely manner. The inspection of work equipment can be streamlined using digital checklists with standard reporting. Digital checklists for machines and equipment make it easier to carry out and document everything from pre-use to annual inspections.",
+    "description": "The second argument of the work equipment banner"
+  },
+  "workequipment.systematized_documentation.title": {
+    "message": "Full control with the Maintenance module",
+    "description": "The title of the systematized documentation section in the work equipment page"
+  },
+  "workequipment.systematized_documentation.arg1": {
+    "message": "With the Maintenance module, you get full insight into the condition of your equipment fleet, both in the field and at the office.",
+    "description": "The first argument of the systematized documentation section in the work equipment page"
+  },
+  "workequipment.systematized_documentation.arg2": {
+    "message": "Hide.",
+    "description": "The second argument of the systematized documentation section in the work equipment page"
+  },
+  "workequipment.systematized_documentation.point1": {
+    "message": "Easily log maintenance through QR code with your mobile.",
+    "description": "The first point of the systematized documentation section on the work equipment page"
+  },
+  "workequipment.systematized_documentation.point2": {
+    "message": "Link maintenance tasks to custom checklists.",
+    "description": "The second point of the systematized documentation section on the work equipment page"
+  },
+  "workequipment.systematized_documentation.point3": {
+    "message": "Generate reports and gain a complete overview of your machinery fleet",
+    "description": "The third point of the systematized documentation section on the work equipment page"
+  },
+  "workequipment.machines_equipment.title1": {
+    "message": "Important information –",
+    "description": "The first title of the machine equipment section in the work equipment page"
+  },
+  "workequipment.machines_equipment.title2": {
+    "message": "always easily accessible.",
+    "description": "The second title of the machine equipment section in the work equipment page"
+  },
+  "workequipment.machines_equipment.arg1": {
+    "message": "With Trygg Maskin, operators quickly access everything they need for safe and efficient use via a QR code attached to the equipment",
+    "description": "The first argument of the machine equipment section in the work equipment page"
+  },
+  "workequipment.machines_equipment.arg2": {
+    "message": "Hide.",
+    "description": "The second argument of the machine equipment section in the work equipment page"
+  },
+  "workequipment.machines_equipment.point1": {
+    "message": "Easily perform pre-use inspections.",
+    "description": "The first point of the machine equipment section on the work equipment page"
+  },
+  "workequipment.machines_equipment.point2": {
+    "message": "Access user manuals, instructional videos, and important documents.",
+    "description": "The second point of the machine equipment section on the work equipment page"
+  },
+  "workequipment.machines_equipment.point3": {
+    "message": "View the status of expert controls to ensure everything is in order before use.",
+    "description": "The third point of the machine equipment section on the work equipment page"
+},
+"workequipment.machineinsights.title": {
+  "message":"Streamlined Expert Control – ",
+  "description": "The first title of the machine Insights section in the work equipment page"
+},
+"workequipment.machineinsights.title2": {
+  "message":"always in order.",
+  "description": "The second title of the machine Insights section in the work equipment page"
+},
+"workequipment.machineinsights.arg1": {
+  "message":"The expert control module makes it easy to perform both expert inspections and other controls for your equipment fleet.",
+  "description": "The first argument of the machine Insights section in the work equipment page"
+},
+"workequipment.machineinsights.arg2": {
+  "message":"Hide",
+  "description": "insightsarg2"
+},
+"workequipment.machineinsights.point1": {
+  "message":"Give inspectors access to start expert control through QR code on the equipment.",
+  "description": "The first point of the machine Insights section on the work equipment page"
+},
+"workequipment.machineinsights.point2": {
+  "message":"Document deviations with photos and descriptions.",
+  "description": "The second point of the machine Insights section on the work equipment page"
+},
+"workequipment.machineinsights.point3": {
+  "message":"Keep track of inspection documents and inspection status, available to both inspectors and equipment users.",
+  "description": "he third point of the machine Insights section on the work equipment page"
+},
+"workequipment.machineinsights.point4": {
+  "message":"Easily follow-up and close deviations afterward.",
+  "description": "The fourth point of the machine Insights section on the work equipment page"
+},
+"aboutus.banner.title1": {
+  "message":"How it started",
+  "description": "The title of banner section in the aboutus page"
+
+},
+"aboutus.banner.title2": {
+  "message":"Through years of building a rental business, Lars saw a clear need to improve safety for customers.",
+  "description": "The second title of banner section in the aboutus page"
+},
+"aboutus.banner.arg1": {
+  "message":"Incorrect use of equipment is potentially very risky and can lead to serious injuries, or, in worst case, even death. The lack of easily accessible and structured product information, as well as limited collaboration in the industry, held back improvement in safety.",
+  "description": "The first argument of the banner section in the aboutus page"
+},
+"aboutus.banner.arg2": {
+  "message":"The need was clear – to offer the industry a solution that centralizes content for rental companies and businesses, in cooperation with dealers and OEMs, and make this information easily accessible to equipment users.",
+  "description": "The second argument of the banner section in the aboutus page"
+},
+"aboutus.banner.arg3": {
+  "message":"Lars founded DigiQuip in 2019.",
+  "description": "The third argument of the banner section in the aboutus page"
+},
+"aboutus.contact.title": {
+  "message":"DigiQuip helps you solve equipment training, machine inspections and in general to get the control you need",
+  "description": "The title of contact section in the aboutus page"
+},
+
+"aboutus.team.title": {
+  "message":"Meet Our Team",
+  "description": "The title of team section in the aboutus page"
+},
+"aboutus.team.button_lavel": {
+  "message":"book a meeting",
+  "description": "The button lavel of team section in the aboutus page"
+},
+
+"home.event.type": {
+  "message":"Webinar",
+  "description": "The event type in the home page"
+},
+"home.event.date": {
+  "message":"Thursday 25 April 09:00-10:00",
+  "description": "The event start time in the home page"
+},
+"home.event.title": {
+  "message":"Use your customer data in several marketing channels",
+  "description": "The title of event in the home page"
+},
+"home.event.description": {
+  "message":"Do you want to ensure a better customer experience with the use of customer data, also on the website? In this webinar, we take you through how to collect and utilize customer data in the best possible way, so that customers keep coming back to you.",
+  "description": "The description of event in home page"
+},
+"home.event.signup": {
+  "message":"Sign up here",
+  "description": "The signup button of event in the home page"
+},
+
+"home.event.keypoints_title1": {
+  "message": "00:00: <b>How to get started + demo</b>",
+  "description": "The title of first keypoint"
+},
+"home.event.keypoints_desc1": {
+  "message": "Cathrine Westbye (Solution Manager, Competence) in DigiQuip talk about our new technology venture.",
+  "description": "The description of first keypoint"
+},
+"home.event.keypoints_title2": {
+  "message": "30:00: <b>Lorem ipsum dolor sit amet</b>",
+  "description": "The title of second keypoint"
+},
+"home.event.keypoints_desc2": {
+  "message": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus ut consequat lectus, iaculis tincidunt tellus.",
+  "description": "The description of second keypoint"
+},
+"home.event.keypoints_title3": {
+  "message": "50:00 <b>Fusce semper sapien id risus tincidunt</b>",
+  "description": "The title of third keypoint"
+},
+"home.event.keypoints_desc3": {
+  "message": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+  "description": "The description of third keypoint"
+},
+  "navbar.label.contact": {
+    "message": "Contact",
+    "description": "Navbar item with label Contact"
+  },
+  "navbar.label.contact_us": {
+    "message": "Contact Us",
+    "description": "Navbar item with label Contact Us"
+  },
+  "navbar.label.book_meeting": {
+    "message": "Book a Meeting",
+    "description": "Navbar item with label Book a Meeting"
+  },
+  "home.news.title": {
+    "message": "hallo",
+    "description": "Title of Latest News"
+  },
+  "home.news.news1title": {
+    "message": "Document equipment-specific training digitally",
+    "description": "First title of the news"
+  },
+  "home.news.news1desc": {
+    "message": "All employees must receive training on the type of work equipment they will be using. This is about ensuring health, safety, environmental protection and profitability. In Kvipp, training can be easily completed and documented digitally anytime - for free! You only need a phone and an HSE card (or other ID), with no preparation or follow-up work required.",
+    "description": "First description of the news"
+  },
+  "home.news.news2title": {
+    "message": "Lack of documentation led to a work stoppage",
+    "description": "Second title of the news"
+  },
+  "home.news.news2desc": {
+    "message": "We needed to easily manage equipment-specific training! Both safety and efficiency are crucial in the construction industry. Systems that ensure workers have the necessary training and documentation are essential. Challenges related to equipment-specific training often lead to delays on construction sites across Norway. The Kvipp digital platform solves these challenges in an efficient and user-friendly way.",
+    "description": "Second description of the news"
+  }
+}

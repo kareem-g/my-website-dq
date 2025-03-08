@@ -1,0 +1,25 @@
+andreas:
+  name: Andreas N. Lydersen
+  title: CEO
+  url: https://github.com/alydersen
+  image_url: https://github.com/alydersen.png
+
+christian:
+  name: Christian Nordström
+  title: Fagleder design og markedsføring i Sørby
+
+lars:
+  name: Lars Sørby
+  title: Grunnlegger 
+  url: https://www.linkedin.com/in/lars-sørby-79434a79/
+  image_url: https://digiquip.no/team_imgs/lars.jpg
+
+tomfreddy:
+  name: Tom Freddy Braathen
+  title: Chief commercial officer
+  image_url: https://digiquip.no/img/competence-images/tom_freddy.webp
+
+cathrine:
+  name: Cathrine Westbye
+  url: https://www.linkedin.com/in/cathrine-westbye-2259638b/ 
+  image_url: https://digiquip.no/team_imgs/CathrineWestbye.jpeg

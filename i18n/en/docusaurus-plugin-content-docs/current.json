@@ -1,0 +1,38 @@
+{
+  "version.label": {
+    "message": "Next",
+    "description": "The label for version current"
+  },
+  "sidebar.tutorialSidebar.category.Juridisk": {
+    "message": "Legal stuff",
+    "description": "The label for category Legal stuff in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Hendig informasjon": {
+    "message": "Good to know",
+    "description": "The label for category Good to know in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.For utviklere": {
+    "message": "For developers",
+    "description": "The label for category For developers in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Designguide": {
+    "message": "Brand material",
+    "description": "The label for category Brand material in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Om løsningene våre": {
+    "message": "About our solutions",
+    "description": "The label for category DigiQuip use cases in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Priser": {
+    "message": "Pricing",
+    "description": "The label for category DigiQuip use cases in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Bruk av programvaren DigiQuip": {
+  "message": "Resources",
+  "description": "The label for category DigiQuip resources in sidebar tutorialSidebar"
+},
+"sidebar.tutorialSidebar.category.Bruk av Kvipp": {
+"message": "Resources",
+"description": "The label Kvipp resources in sidebar tutorialSidebar"
+}
+}

@@ -1,0 +1,34 @@
+{
+  "logo.alt": {
+    "message": "The DigiQuip logo",
+    "description": "The alt text of navbar logo"
+  },
+  "item.label.Products": {
+    "message": "Products",
+    "description": "Navbar item with label Products"
+  },
+  "item.label.Competence": {
+    "message": "Competence",
+    "description": "Navigering til ressurser"
+  },
+  "item.label.Workequipment": {
+    "message": "Work equipment",
+    "description": "Navigering til arbeidsutstyr"
+  },
+  "item.label.About us": {
+    "message": "About us",
+    "description": "Navbar item with label About us"
+  },
+  "item.label.Pricing": {
+    "message": "Pricing",
+    "description": "Navbar item with label Pricing"
+  },
+  "item.label.Sign in": {
+    "message": "Sign in",
+    "description": "Navbar item with label Sign in"
+  },
+  "item.label.Scan QR": {
+    "message": "Scan QR",
+    "description": "Navbar element with label Scan"
+  }
+}
