@@ -966,9 +966,9 @@ background-color: #fff;
   color: var(--ifm-color-orange);
 }
 
-/* .navbar {
-  background-color: transparent;
-} */
+.navbar {
+  background-color: var(--ifm-color-primary);
+}
 
 
 
@@ -976,11 +976,32 @@ background-color: #fff;
 
 .navbar.up,
 .navbar.up:before {
-  transform: translateY(0);
-  opacity: 1;
-  background-color: var(--ifm-color-primary);
-  /* color: var(--ifm-color-orange); */
+    transform: translateY(0);
+    opacity: 1;
+    background-color: var(--ifm-color-primary);
+}
 
+.navbar-sidebar .navbar__link {
+  color: #000;
+}
+
+.navbar-sidebar .navbar__link:hover,
+.navbar-sidebar .navbar__link--active {
+  color: var(--ifm-color-orange);
+  background-color: rgba(240, 90, 9, 0.1);
+}
+
+
+.navbar.up .white-btn,
+.plugin-docs .navbar .white-btn,
+.white-header .white-btn {
+    background-color: var(--ifm-color-primary);
+}
+
+.navbar.up .white-btn .btn_text,
+.plugin-docs .navbar .white-btn .btn_text,
+.white-header .white-btn .btn_text {
+    color: #fff;
 }
 
 .navbar__logo {
@@ -993,27 +1014,55 @@ background-color: #fff;
   transition: 0.3s;
 }
 
+.navbar__logo img {
+  opacity: 0;
+}
+
 .my-class .navbar__toggle,
 .white-header .navbar__toggle {
   color: var(--ifm-color-orange);
 }
 
-.my-class .navbar__logo,
-.navbar.dark .navbar__logo,
-/* .plugin-blog .navbar .navbar__logo, */
-.plugin-docs .navbar .navbar__logo,
-.white-header .navbar__logo {
-  background: url("../../static/img/black-logo-header.svg") no-repeat;
+.navbar .navbar__logo {
+  background: url("../../static/img/white-logo-header.svg") no-repeat center left;
   background-size: 174px !important;
-  max-width: 184px;
-  min-height: 47px;
-  background-position: center left;
-  transition: 0.3s;
+}
+/* Navbar on White Background */
+.navbar.white-bg {
+  background-color: #fff;
 }
 
-.navbar__logo img {
-  opacity: 0;
+.navbar.white-bg .navbar__logo {
+  background: url("../../static/img/black-logo-header.svg") no-repeat center left;
+  background-size: 174px !important;
 }
+
+.navbar.white-bg .navbar__item,
+.navbar.white-bg .navbar__link {
+    color: #000 !important;
+}
+
+
+.navbar.white-bg .navbar__item:hover,
+.navbar.white-bg .navbar__link:hover {
+    color: var(--ifm-color-orange) !important;
+}
+
+/* Ensure sidebar keeps black text */
+.navbar-sidebar {
+  background-color: #fff;
+}
+
+.navbar-sidebar .navbar__link {
+  color: #000;
+}
+
+.navbar-sidebar .navbar__link:hover,
+.navbar-sidebar .navbar__link--active {
+  color: var(--ifm-color-orange);
+  background-color: rgba(240, 90, 9, 0.1);
+}
+
 
 .navbar-sidebar--show .navbar-sidebar .navbar__logo {
   background: url("../../static/img/black-logo-header.svg") no-repeat;
@@ -2507,7 +2556,12 @@ details p {
 }
 
 .navbar__item {
-  background: #fff;
+  background: transparent;
+  color: #fff;
+}
+
+.navbar__item:hover {
+  color: var(--ifm-color-orange)
 }
 
 @media (max-width: 996px) {
