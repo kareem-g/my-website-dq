@@ -90,7 +90,7 @@ const config = {
       image: 'img/docusaurus-social-card.jpg',
       colorMode: {
         defaultMode: 'light',
-        disableSwitch: true,
+        disableSwitch: false,
         respectPrefersColorScheme: false,
       },
       navbar: {
@@ -100,28 +100,28 @@ const config = {
           src: 'img/logo.svg',
         },
         items: [
-          // {
-          //   type: "dropdown",
-          //   label: 'Products',
-          //   position: 'left',
-          //   items: [
-          //     {
-          //       label: 'Kvipp',
-          //       sidebarid: 'tutorialSidebar',
-          //       to: '/kvipp',
-          //     },
-          //     {
-          //       label: 'Kvipp Bedrift',
-          //       sidebarid: 'tutorialSidebar',
-          //       to: '/bedrift',
-          //     },
-          //     {
-          //       label: 'Trygg Maskin',
-          //       sidebarid: 'tutorialSidebar',
-          //       to: '/trygg-maskin',
-          //     },
-          //   ]
-          // },
+          {
+            type: "dropdown",
+            label: 'Products',
+            position: 'left',
+            items: [
+              {
+                label: 'Kvipp',
+                sidebarid: 'tutorialSidebar',
+                to: '/kvipp',
+              },
+              {
+                label: 'Kvipp Bedrift',
+                sidebarid: 'tutorialSidebar',
+                to: '/bedrift',
+              },
+              {
+                label: 'Trygg Maskin',
+                sidebarid: 'tutorialSidebar',
+                to: '/trygg-maskin',
+              },
+            ]
+          },
           {
             to: '/about',
             label: 'About us',

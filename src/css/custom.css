@@ -981,16 +981,6 @@ background-color: #fff;
     background-color: var(--ifm-color-primary);
 }
 
-.navbar-sidebar .navbar__link {
-  color: #000;
-}
-
-.navbar-sidebar .navbar__link:hover,
-.navbar-sidebar .navbar__link--active {
-  color: var(--ifm-color-orange);
-  background-color: rgba(240, 90, 9, 0.1);
-}
-
 
 .navbar.up .white-btn,
 .plugin-docs .navbar .white-btn,
@@ -1042,6 +1032,9 @@ background-color: #fff;
     color: #000 !important;
 }
 
+.navbar__item {
+  color: red;
+}
 
 .navbar.white-bg .navbar__item:hover,
 .navbar.white-bg .navbar__link:hover {
@@ -1053,9 +1046,7 @@ background-color: #fff;
   background-color: #fff;
 }
 
-.navbar-sidebar .navbar__link {
-  color: #000;
-}
+
 
 .navbar-sidebar .navbar__link:hover,
 .navbar-sidebar .navbar__link--active {
@@ -2591,3 +2582,47 @@ details p {
 }
 
 
+
+/* Ensure the whole dropdown link area is hoverable */
+.dropdown > .navbar__link {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem; /* Ensures spacing between text and arrow */
+  color: var(--ifm-bg-grey);
+  font-weight: var(--ifm-font-weight-semibold);
+  transition: color 0.2s ease-in-out;
+}
+
+/* Hover effect applies to both text and arrow */
+.dropdown:hover > .navbar__link,
+.dropdown > .navbar__link:hover {
+  color: var(--ifm-color-orange);
+}
+
+/* Arrow default styling */
+.dropdown > .navbar__link:after {
+  content: "";
+  display: inline-block;
+  width: 7px;
+  height: 7px;
+  border-style: solid solid none none;
+  border-right-color: white;
+  border-top-color: white;
+  transform: rotate(135deg);
+  transition: 0.2s ease-in-out;
+  border-top-width: 1px;
+  border-right-width: 1px;
+}
+
+/* Apply hover effect to arrow when text is hovered */
+.dropdown:hover > .navbar__link:after {
+  border-right-color: var(--ifm-color-orange); 
+  border-top-color: var(--ifm-color-orange);
+}
+
+/* Additional fix for dropdown menus that open on hover */
+nav .dropdown--hoverable:hover .navbar__link:after {
+  border-color: var(--ifm-color-orange);
+  transform: rotate(313deg);
+  top: 0px;
+}
